@@ -15,15 +15,20 @@ export default function Login(){
                 <div class="log-side-bar">
                     <div class="loggin-form">
                         <h1>Welcome!</h1>
-                        <h3>Enter details of login</h3>
-                        <ul class="user-form">
-                            <li>
-                                <input type="text" class ="user-bar" placeholder="Email" />
-                            </li>
-                            <li>
-                                <input type="text" class ="user-bar" placeholder="Password" />
-                            </li>
-                        </ul>
+                        <h3>Enter details of login.</h3>
+                        <div class="user-form">
+                            <form method="post">
+                                <p>
+                                    <input type="text" class ="user-bar" placeholder="Email" />
+                                </p>
+                                <p>
+                                    <input type="password" name="password" class ="user-bar" placeholder="Password" />
+                                    <button class="password-show" id="togglePassword">show</button>
+                                </p>
+                            </form>
+                            <p class="forgot-password">FORGOT PASSWORD?</p>
+                            <button class="login-button">Log in</button>
+                        </div>
                     </div>
                 </div>
             </div>
