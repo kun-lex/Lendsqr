@@ -1,9 +1,9 @@
-import Login from './components/login';
+import Main from "./main";
 
 function App() {
   return (
     <div>
-      <Login />
+      <Main />
     </div>
   );
 }
