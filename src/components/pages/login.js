@@ -1,6 +1,7 @@
 import "./App.css"
 import Pablo from "./pablo-sign-in 1.svg"
 import Union from "./Union.png"
+import { Link } from "react-router-dom"
 
 export default function Login(){
     return(
@@ -11,6 +12,11 @@ export default function Login(){
                     <img class="logo" src={Union} alt="logo" /><h1 class="web-title">lendsqr</h1>
                     </div>
                     <img class="pablo" src={Pablo} alt='pablo' />
+                    <Link to="/dashboard">
+                        <button variant="outlined">
+                            Dashboard
+                        </button>
+                    </Link>
                 </div>
                 <div class="log-side-bar">
                     <div class="loggin-form">
