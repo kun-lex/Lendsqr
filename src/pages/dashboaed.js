@@ -3,7 +3,10 @@ import './App.css'
 
 export default function dashboard(){
     return(
-        <Navbar />
+        <main className="container">
+            <Navbar />
+
+        </main>
 
     )
 }
